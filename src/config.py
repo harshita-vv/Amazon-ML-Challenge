@@ -2,7 +2,7 @@ from pathlib import Path
 
 # This file lives at code/business_entity_resolution/src/config.py
 # so the project root is 3 levels up from here.
-PROJECT_ROOT = Path(__file__).resolve().parents[3]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 DATA_DIR = PROJECT_ROOT / "dataset"
 TRAIN_DIR = DATA_DIR / "train"
